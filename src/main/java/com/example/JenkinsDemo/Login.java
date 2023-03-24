@@ -25,9 +25,8 @@ public class Login {
     @FindBy(className = "post-header")
     WebElement heading;
 
-    public Login(WebDriver driver, WebDriverWait wait) {
+    public Login(WebDriver driver) {
         this.driver = driver;
-        this.wait = wait;
         PageFactory.initElements(driver, this);
     }
 

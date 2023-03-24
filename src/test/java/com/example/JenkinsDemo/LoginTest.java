@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 
 public class LoginTest {
     WebDriver driver;
-    WebDriverWait wait;
     Login login;
 
     @BeforeTest
@@ -19,7 +18,7 @@ public class LoginTest {
         System.setProperty("webdriver.chrome.driver", "C:\\selenium\\chromedriver_win110\\chromedriver.exe");
         // Instantiate a ChromeDriver class.
         driver = new ChromeDriver();
-        login = new Login(driver, wait);
+        login = new Login(driver);
         driver.manage().window().maximize();
         driver.get("https://practicetestautomation.com/practice-test-login/");
     }
