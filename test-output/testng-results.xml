@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-24T12:22:46 IST" name="All Test Suite" finished-at="2023-03-24T12:23:41 IST" duration-ms="55111">
+  <suite started-at="2023-03-27T09:22:57 IST" name="All Test Suite" finished-at="2023-03-27T09:23:48 IST" duration-ms="50880">
     <groups>
     </groups>
-    <test started-at="2023-03-24T12:22:46 IST" name="C:/DevStudio/Projects/JenkinsDemo" finished-at="2023-03-24T12:23:41 IST" duration-ms="55111">
+    <test started-at="2023-03-27T09:22:57 IST" name="C:/DevStudio/Projects/JenkinsDemo" finished-at="2023-03-27T09:23:48 IST" duration-ms="50880">
       <class name="com.example.JenkinsDemo.LoginTest">
-        <test-method is-config="true" signature="browserLogin()[pri:0, instance:com.example.JenkinsDemo.LoginTest@4c2bb6e0]" started-at="2023-03-24T12:22:46 IST" name="browserLogin" finished-at="2023-03-24T12:23:08 IST" duration-ms="22223" status="PASS">
+        <test-method is-config="true" signature="browserLogin()[pri:0, instance:com.example.JenkinsDemo.LoginTest@21d03963]" started-at="2023-03-27T09:22:57 IST" name="browserLogin" finished-at="2023-03-27T09:23:16 IST" duration-ms="19243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLogin -->
-        <test-method signature="testLoginWithInvalidData()[pri:1, instance:com.example.JenkinsDemo.LoginTest@4c2bb6e0]" started-at="2023-03-24T12:23:08 IST" name="testLoginWithInvalidData" finished-at="2023-03-24T12:23:18 IST" duration-ms="9334" status="PASS">
+        <test-method signature="testLoginWithInvalidData()[pri:1, instance:com.example.JenkinsDemo.LoginTest@21d03963]" started-at="2023-03-27T09:23:16 IST" name="testLoginWithInvalidData" finished-at="2023-03-27T09:23:24 IST" duration-ms="7491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithInvalidData -->
-        <test-method signature="testLoginWithEmptyData()[pri:2, instance:com.example.JenkinsDemo.LoginTest@4c2bb6e0]" started-at="2023-03-24T12:23:18 IST" name="testLoginWithEmptyData" finished-at="2023-03-24T12:23:24 IST" duration-ms="6608" status="PASS">
+        <test-method signature="testLoginWithEmptyData()[pri:2, instance:com.example.JenkinsDemo.LoginTest@21d03963]" started-at="2023-03-27T09:23:24 IST" name="testLoginWithEmptyData" finished-at="2023-03-27T09:23:30 IST" duration-ms="6416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithEmptyData -->
-        <test-method signature="testLoginWithValidData()[pri:3, instance:com.example.JenkinsDemo.LoginTest@4c2bb6e0]" started-at="2023-03-24T12:23:24 IST" name="testLoginWithValidData" finished-at="2023-03-24T12:23:36 IST" duration-ms="11787" status="PASS">
+        <test-method signature="testLoginWithValidData()[pri:3, instance:com.example.JenkinsDemo.LoginTest@21d03963]" started-at="2023-03-27T09:23:30 IST" name="testLoginWithValidData" finished-at="2023-03-27T09:23:45 IST" duration-ms="14288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidData -->
-        <test-method signature="testHeadingVerification()[pri:6, instance:com.example.JenkinsDemo.LoginTest@4c2bb6e0]" started-at="2023-03-24T12:23:36 IST" name="testHeadingVerification" finished-at="2023-03-24T12:23:36 IST" duration-ms="281" status="PASS">
+        <test-method signature="testHeadingVerification()[pri:6, instance:com.example.JenkinsDemo.LoginTest@21d03963]" started-at="2023-03-27T09:23:45 IST" name="testHeadingVerification" finished-at="2023-03-27T09:23:45 IST" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHeadingVerification -->
-        <test-method signature="testTitleVerification()[pri:7, instance:com.example.JenkinsDemo.LoginTest@4c2bb6e0]" started-at="2023-03-24T12:23:36 IST" name="testTitleVerification" finished-at="2023-03-24T12:23:37 IST" duration-ms="210" status="PASS">
+        <test-method signature="testTitleVerification()[pri:7, instance:com.example.JenkinsDemo.LoginTest@21d03963]" started-at="2023-03-27T09:23:45 IST" name="testTitleVerification" finished-at="2023-03-27T09:23:45 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTitleVerification -->
-        <test-method signature="testUrlVerification()[pri:8, instance:com.example.JenkinsDemo.LoginTest@4c2bb6e0]" started-at="2023-03-24T12:23:37 IST" name="testUrlVerification" finished-at="2023-03-24T12:23:37 IST" duration-ms="259" status="PASS">
+        <test-method signature="testUrlVerification()[pri:8, instance:com.example.JenkinsDemo.LoginTest@21d03963]" started-at="2023-03-27T09:23:45 IST" name="testUrlVerification" finished-at="2023-03-27T09:23:45 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUrlVerification -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.example.JenkinsDemo.LoginTest@4c2bb6e0]" started-at="2023-03-24T12:23:37 IST" name="close" finished-at="2023-03-24T12:23:41 IST" duration-ms="4343" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.example.JenkinsDemo.LoginTest@21d03963]" started-at="2023-03-27T09:23:45 IST" name="close" finished-at="2023-03-27T09:23:48 IST" duration-ms="2962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
